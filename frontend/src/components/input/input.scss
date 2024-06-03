@@ -1,0 +1,34 @@
+@import "../../assets/styles/_variables.scss";
+
+.input__div {
+  position: absolute;
+  bottom: 0;
+  min-height: 7vw;
+  max-height: 30vw;
+  border: none;
+  border-radius: 0.6vw;
+}
+.input__div form {
+  width: 25vw;
+  height: 7vw;
+  position: fixed;
+  background-color: $bgInput;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input__div input {
+  background-color: transparent;
+  color: $colorInput;
+  border: none;
+  min-height: 10vw;
+  max-height: auto;
+  padding: 0 1vw;
+  font-size: 1.5vw;
+}
+
+@media screen and (max-width: 900px) {
+  .input__div form {
+    width: 35vw;
+  }
+}

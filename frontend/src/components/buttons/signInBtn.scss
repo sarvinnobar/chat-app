@@ -1,0 +1,16 @@
+@import "../../assets/styles/_variables.scss";
+.signInBtn {
+  font-size: 1.2vw;
+  font-weight: bold;
+  border-radius: 0.2vw;
+  color: $primaryFontColor;
+  background-color: transparent;
+  border: 0.1vw solid $primaryFontColor;
+  padding: 0.2vw 0.5vw;
+  justify-self: center;
+}
+
+.signInBtn:hover {
+  background-color: $primaryFontColor;
+  color: $primaryColor;
+}

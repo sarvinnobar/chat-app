@@ -1,0 +1,26 @@
+@import "../../assets/styles/_variables.scss";
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.center {
+  position: relative !important;
+  width: 25%;
+  height: auto;
+  min-height: 80vh;
+  max-height: 85vh;
+  margin: 5vw auto;
+  word-wrap: break-word;
+  background-image: url("../../assets/img/chatBg3.jpg");
+  background-size: 100%;
+  object-fit: cover;
+  overflow: auto;
+  border-radius: 1vw;
+}
+@media screen and (max-width: 900px) {
+  .center {
+    width: 35vw;
+    min-height: 65vh;
+    max-height: 50vh;
+  }
+}
