@@ -1,0 +1,11 @@
+@import "../../assets/styles/_variables.scss";
+.sendBtn {
+  background-color: transparent;
+  border: none;
+  border-radius: 0.5vw;
+  font-size: 1.6vw;
+  color: $primaryColor;
+  width: 2vw;
+  height: 2vw;
+  padding: 0;
+}
