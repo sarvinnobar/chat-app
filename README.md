@@ -1,7 +1,7 @@
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/sarvinnobar/chat-app.git
+git clone -b master https://github.com/sarvinnobar/chat-app.git
 ```
 2. Change directory to the frontend folder:
 ```bash
